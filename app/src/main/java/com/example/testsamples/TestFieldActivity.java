@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class TestFieldActivity extends AppCompatActivity {
     private static int number = 0;
@@ -18,6 +19,8 @@ public class TestFieldActivity extends AppCompatActivity {
             stringBuilder.append("now number is "+number+"\n");
             stringBuilder.append("number++ is "+(number++)+"\n");
             stringBuilder.append("then number is "+number+"\n");
+            TextView textView = findViewById(R.id.textView);
+            textView.setText(stringBuilder.toString());
         });
     }
 }
