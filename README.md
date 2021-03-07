@@ -1,3 +1,3 @@
 # TestSamples
 
-- apk : https://github.com/oha-yashi/TestSamples/blob/master/app/build/outputs/apk/debug
+- apk : https://github.com/oha-yashi/TestSamples/tree/master/app/build/outputs/apk/debug
