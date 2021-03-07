@@ -21,28 +21,28 @@
                 android:id="@+id/bullButton"
                 android:gravity="center"
                 android:text="BULL"
-                android:textSize="16dp"
+                android:textSize="14sp"
                 android:layout_weight="1" />
 
             <Button
                 android:id="@+id/missButton"
                 android:gravity="center"
                 android:text="MISS"
-                android:textSize="16dp"
+                android:textSize="14sp"
                 android:layout_weight="1"/>
 
             <Button
                 android:id="@+id/backButton"
                 android:gravity="center"
                 android:text="BACK"
-                android:textSize="16dp"
+                android:textSize="14sp"
                 android:layout_weight="1"/>
 
             <Button
                 android:id="@+id/restartButton"
                 android:gravity="center"
                 android:text="RESTART"
-                android:textSize="16dp"
+                android:textSize="14sp"
                 android:layout_weight="1"/>
 
         </TableRow>

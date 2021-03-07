@@ -2,6 +2,7 @@ package com.example.testsamples;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -25,6 +26,11 @@ public class DartsRecordHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         sqLiteDatabase.execSQL(CREATE_QUERY);
+        Cursor cursor = sqLiteDatabase.rawQuery("SELECT game, round, darts FROM "+TABLE_NAME+" ORDER BY _id DESC LIMIT 1", null);
+        game_count = cursor.getInt(0);
+        round_count = cursor.getInt(1);
+        darts_count = cursor.getInt(2);
+        cursor.close();
     }
 
     @Override
@@ -41,9 +47,11 @@ public class DartsRecordHelper extends SQLiteOpenHelper {
         ContentValues contentValues = new ContentValues();
         contentValues.put("game", game_count++);
         contentValues.put("round", round_count++);
-        contentValues.put("darts", (darts_count++)%3);
+        contentValues.put("darts", darts_count++); darts_count%=3;
         contentValues.put("hit", hit);
         contentValues.put("point", point);
+        sqLiteDatabase.insert(TABLE_NAME, null, contentValues);
+        sqLiteDatabase.close();
     }
 
     public static void score(Context context, String hit){
