@@ -42,6 +42,8 @@ public class DartsRecordHelper extends SQLiteOpenHelper {
         contentValues.put("game", game_count++);
         contentValues.put("round", round_count++);
         contentValues.put("darts", (darts_count++)%3);
+        contentValues.put("hit", hit);
+        contentValues.put("point", point);
     }
 
     public static void score(Context context, String hit){
