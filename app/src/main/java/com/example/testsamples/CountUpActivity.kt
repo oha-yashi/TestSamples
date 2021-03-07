@@ -12,9 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.setPadding
 
 class CountUpActivity : AppCompatActivity() {
-    var score = 0
-    var round = 0
-    var darts = 0
+    private val scoreView = findViewById<TextView>(R.id.scoreView)
 
     private val buttonListList = listOf(
         listOf(16,17,18,19,20),
@@ -46,6 +44,8 @@ class CountUpActivity : AppCompatActivity() {
             }
             buttonField.addView(tr)
         }
+
+        findViewById<Button>(R.id.bullButton).setOnTouchListener(bullButton)
     }
 
     @SuppressLint("ClickableViewAccessibility", "ResourceAsColor")
@@ -92,7 +92,9 @@ class CountUpActivity : AppCompatActivity() {
         }
 
     fun score(hit: String){
-        DartsRecordHelper.score(this, hit)
+        val sc = DartsRecordHelper.score(this, hit)
+        val nowScore = Integer.parseInt(scoreView.text.toString())
+        scoreView.text = (nowScore+sc).toString()
     }
 
     @SuppressLint("ClickableViewAccessibility")

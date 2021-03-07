@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".CountUpActivity">
 
+    <TextView
+        android:id="@+id/scoreView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCORE"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@id/buttonTable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TableLayout
         android:id="@+id/buttonTable"
         android:layout_width="match_parent"
