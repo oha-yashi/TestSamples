@@ -1,6 +1,7 @@
 package com.example.testsamples
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -16,6 +17,14 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<View>(R.id.tv_testField).setOnClickListener {
             startActivity(Intent(this, TestFieldActivity::class.java))
+        }
+
+        findViewById<View>(R.id.tv_GitHub).setOnClickListener {
+            val page = Uri.parse("https://github.com/oha-yashi/TestSamples")
+            val intent = Intent(Intent.ACTION_VIEW, page)
+            if(intent.resolveActivity(packageManager) != null){
+                startActivity(intent)
+            }
         }
     }
 }

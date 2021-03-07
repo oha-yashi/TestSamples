@@ -51,6 +51,15 @@
                 android:text="テスト用"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_GitHub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="48sp"
+                android:text="go to GitHub"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
         </LinearLayout>
     </ScrollView>
 
