@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 import androidx.annotation.Nullable;
 
@@ -27,9 +28,12 @@ public class DartsRecordHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         sqLiteDatabase.execSQL(CREATE_QUERY);
         Cursor cursor = sqLiteDatabase.rawQuery("SELECT game, round, darts FROM "+TABLE_NAME+" ORDER BY _id DESC LIMIT 1", null);
-        game_count = cursor.getInt(0)+1;
-        round_count = 0;
-        darts_count = 0;
+        cursor.moveToFirst();
+        if(cursor.getCount()==1) {
+            game_count = cursor.getInt(0) + 1;
+            round_count = 0;
+            darts_count = 0;
+        }
         cursor.close();
     }
 
@@ -61,19 +65,23 @@ public class DartsRecordHelper extends SQLiteOpenHelper {
 
     public static int score(Context context, String hit){
         int score = 0;
+        Log.d("DRH.score", "hit = /"+hit);
+        Log.d("DRH.score", "substring01=/"+hit.substring(0,1));
         if ("MISS".equals(hit)) {
             record(context, hit, score=0);
-        }else if (hit=="BULL" || hit=="D-BULL"){
-            record(context, hit, score=50);
-        }else if (hit.substring(0,1)==" "){
-            record(context, hit, score=Integer.parseInt(hit.substring(1)));
-        }else if (hit.substring(0,1)=="D"){
-            record(context, hit, score=Integer.parseInt(hit.substring(1))*2);
-        }else if (hit.substring(0,1)=="T"){
-            record(context, hit, score=Integer.parseInt(hit.substring(1))*3);
+        }else if (hit.equals("BULL") || hit.equals("D-BULL")){
+            score=50;
+        }else if (hit.substring(0, 1).equals(" ") || hit.substring(0, 1).equals("S")){
+            score=Integer.parseInt(hit.substring(1));
+            Log.d("DRH.score", "Single"+score);
+        }else if (hit.substring(0, 1).equals("D")){
+            score=Integer.parseInt(hit.substring(1))*2;
+        }else if (hit.substring(0, 1).equals("T")){
+            score=Integer.parseInt(hit.substring(1))*3;
         }else{
             //BACK
         }
+        record(context, hit, score);
         return score;
     }
 }

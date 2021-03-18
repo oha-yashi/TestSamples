@@ -9,10 +9,9 @@ import android.view.View
 import android.view.View.OnTouchListener
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.setPadding
 
 class CountUpActivity : AppCompatActivity() {
-    private val scoreView = findViewById<TextView>(R.id.scoreView)
+    private lateinit var scoreView: TextView
 
     private val buttonListList = listOf(
         listOf(16,17,18,19,20),
@@ -34,7 +33,7 @@ class CountUpActivity : AppCompatActivity() {
                 tv = Button(this)
                 tv.gravity = Gravity.CENTER
                 tv.text = " $i"
-                tv.textSize = 30f
+                tv.textSize = 16f
                 tv.setOnTouchListener(pointButtonFlick)
 
                 tr.addView(tv)
@@ -44,7 +43,7 @@ class CountUpActivity : AppCompatActivity() {
             }
             buttonField.addView(tr)
         }
-
+        scoreView = findViewById<TextView>(R.id.scoreView)
         findViewById<Button>(R.id.bullButton).setOnTouchListener(bullButton)
     }
 
@@ -83,17 +82,21 @@ class CountUpActivity : AppCompatActivity() {
                     }
                 }
                 MotionEvent.ACTION_UP -> {
-                    score(btn.text as String)
-                    btn.text = " ${point.substring(1)}"
+                    if(!outOfButton) {
+                        score(btn.text as String)
+                        btn.text = " ${point.substring(1)}"
+                    }
                 }
             }
 
             false
         }
 
-    fun score(hit: String){
+    private fun score(hit: String){
+        Log.d("score", hit)
         val sc = DartsRecordHelper.score(this, hit)
         val nowScore = Integer.parseInt(scoreView.text.toString())
+        Log.d("score", nowScore.toString())
         scoreView.text = (nowScore+sc).toString()
     }
 
