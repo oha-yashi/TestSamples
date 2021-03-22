@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-29:12
 MERGED from [androidx.core:core-ktx:1.3.2] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/eacf15472b9c87380c485bbfb6b5269d/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-ui:2.3.3] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/a2b2581286a3e01a675ad6a79e588f35/navigation-ui-2.3.3/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.3.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/10a1fd9a43e78ddadba51799567f760e/material-1.3.0/AndroidManifest.xml:17:1-24:12
@@ -44,25 +44,25 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hayataku/.gradl
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/d5abaf28ea5acb6296bc3841821b8930/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/9db0ec2213a228a5db2b1034656eefd5/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/0aaff4fb6b8684e27d7e3963216ee549/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:3:5-38
 		INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml
 		INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:5:5-24:19
+ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:5:5-27:19
 MERGED from [com.google.android.material:material:1.3.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/10a1fd9a43e78ddadba51799567f760e/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/10a1fd9a43e78ddadba51799567f760e/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/ab75dfbbd723f28d9ab1c4d69d43602e/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
@@ -85,34 +85,40 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/haya
 		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:11:9-49
+activity#com.example.testsamples.PreferenceTestActivity
+ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:12:9-69
+	android:name
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:12:19-57
 activity#com.example.testsamples.TestFieldActivity
-ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:12:9-55
+ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:13:9-15:50
+	android:resizeableActivity
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:15:13-47
 	android:name
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:12:19-52
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:14:13-46
 activity#com.example.testsamples.MainActivity
-ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:13:9-50
+ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:16:9-50
 	android:name
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:13:19-47
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:16:19-47
 activity#com.example.testsamples.CountUpActivity
-ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:14:9-53
+ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:17:9-53
 	android:name
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:14:19-50
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:17:19-50
 activity#com.example.testsamples.StartDialogActivity
-ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:15:9-23:20
+ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:18:9-26:20
 	android:theme
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:17:13-70
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:20:13-70
 	android:name
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:16:13-48
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:19:13-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:18:13-22:29
+ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:19:17-69
+ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:21:17-77
+ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:24:27-74
 uses-sdk
 INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml

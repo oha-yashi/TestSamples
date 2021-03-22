@@ -19,6 +19,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, TestFieldActivity::class.java))
         }
 
+        findViewById<View>(R.id.preferenceTest).setOnClickListener {
+            startActivity(Intent(this, PreferenceTestActivity::class.java))
+        }
+
         findViewById<View>(R.id.tv_GitHub).setOnClickListener {
             val page = Uri.parse("https://github.com/oha-yashi/TestSamples")
             val intent = Intent(Intent.ACTION_VIEW, page)
