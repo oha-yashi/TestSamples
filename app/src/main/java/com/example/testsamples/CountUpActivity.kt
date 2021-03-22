@@ -116,12 +116,21 @@ class CountUpActivity : AppCompatActivity() {
             MotionEvent.ACTION_DOWN -> {}
             MotionEvent.ACTION_MOVE -> {
                 when{
-                    hitSingle -> {}
-                    hitDouble -> {}
-                    outOfButton -> {}
+                    hitSingle -> {
+                        btn.text = "BULL"
+                    }
+                    hitDouble -> {
+                        btn.text = "D-BULL"
+                    }
+                    outOfButton -> {
+                        btn.text = "BULL"
+                    }
                 }
             }
-            MotionEvent.ACTION_UP -> {}
+            MotionEvent.ACTION_UP -> {
+                score(btn.text as String)
+                btn.text = "BULL"
+            }
         }
 
         false

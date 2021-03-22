@@ -67,10 +67,12 @@ public class DartsRecordHelper extends SQLiteOpenHelper {
         int score = 0;
         Log.d("DRH.score", "hit = /"+hit);
         Log.d("DRH.score", "substring01=/"+hit.substring(0,1));
-        if ("MISS".equals(hit)) {
+        if (hit.equals("MISS")) {
             record(context, hit, score=0);
-        }else if (hit.equals("BULL") || hit.equals("D-BULL")){
+        }else if (hit.equals("BULL")){
             score=50;
+        }else if (hit.equals("D-BULL")){
+            score = 50;
         }else if (hit.substring(0, 1).equals(" ") || hit.substring(0, 1).equals("S")){
             score=Integer.parseInt(hit.substring(1));
             Log.d("DRH.score", "Single"+score);
