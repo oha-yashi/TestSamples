@@ -68,7 +68,7 @@ public class DartsRecordHelper extends SQLiteOpenHelper {
         Log.d("DRH.score", "hit = /"+hit);
         Log.d("DRH.score", "substring01=/"+hit.substring(0,1));
         if (hit.equals("MISS")) {
-            record(context, hit, score=0);
+            score=0;
         }else if (hit.equals("BULL")){
             score=50;
         }else if (hit.equals("D-BULL")){

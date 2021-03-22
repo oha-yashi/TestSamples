@@ -45,6 +45,12 @@ class CountUpActivity : AppCompatActivity() {
         }
         scoreView = findViewById<TextView>(R.id.scoreView)
         findViewById<Button>(R.id.bullButton).setOnTouchListener(bullButton)
+
+        findViewById<Button>(R.id.restartButton).setOnTouchListener(OnTouchListener { view, motionEvent ->
+            scoreView.text = "0"
+
+            false
+        })
     }
 
     @SuppressLint("ClickableViewAccessibility", "ResourceAsColor")
