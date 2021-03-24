@@ -30,5 +30,9 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             }
         }
+
+        findViewById<View>(R.id.mapActivity).setOnClickListener {
+            startActivity(Intent(this, MapsActivity::class.java))
+        }
     }
 }

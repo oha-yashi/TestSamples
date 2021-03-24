@@ -61,6 +61,15 @@
                 android:textSize="24sp" />
 
             <TextView
+                android:id="@+id/mapActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="48sp"
+                android:text="GoogleMapActivity"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <TextView
                 android:id="@+id/tv_GitHub"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

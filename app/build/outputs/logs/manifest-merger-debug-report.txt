@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-29:12
+ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-52:12
 MERGED from [androidx.core:core-ktx:1.3.2] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/eacf15472b9c87380c485bbfb6b5269d/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-ui:2.3.3] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/a2b2581286a3e01a675ad6a79e588f35/navigation-ui-2.3.3/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.3.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/10a1fd9a43e78ddadba51799567f760e/material-1.3.0/AndroidManifest.xml:17:1-24:12
@@ -11,12 +11,18 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/hayataku/.
 MERGED from [androidx.preference:preference:1.1.1] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/6195ca61c3bdd2bc21a55ba3e062eade/preference-1.1.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/4102c377b7a8a929cfb8c6bcf858d486/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment:2.3.3] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/f9c81aebc3529e74297ccbda675ffa1b/navigation-fragment-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/5ca03a01bf71564eda2e31d80173344e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/fa348a26b5bd1ad89c063ae3d4bc48cb/jetified-play-services-location-18.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/7768ef850c6e7f23afc64bde82056cbc/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/ce5d1630d5b3df7ace9dd35aaabe9c5a/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/6fbde3eb0bd4b3be096c7e1fce5ac21f/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/96e956f09c012297edcddd2775f65c0b/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/2a8076bdfc58cd2ace7c4c78c5754ac7/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/d26c4581f2aa1b1cbe7b20229144eab6/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/f07b1191ebfe0f0831af8b7885bf3ab9/jetified-play-services-base-17.5.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/6091fa792a7e36ce0b6bd78c4b4022a1/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/2cd6ec511745259219e32f6de41421c3/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/4ed260d198e71994020c2277de0515f3/jetified-play-services-basement-17.5.0/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.2.4] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/8424eccb2914450df71e7fb1902b3ec8/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/efbbf25f7ee25cf0acf8d96cb8a0a78e/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.3.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/e9017db71a338941b78ce94a26a63f99/transition-1.3.0/AndroidManifest.xml:17:1-24:12
@@ -44,29 +50,45 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hayataku/.gradl
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/d5abaf28ea5acb6296bc3841821b8930/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/9db0ec2213a228a5db2b1034656eefd5/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/0aaff4fb6b8684e27d7e3963216ee549/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-52:12
 	package
 		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:3:5-38
 		INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml
 		INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-52:12
 		INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:1-52:12
 		INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:10:22-76
 application
-ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:5:5-27:19
+ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:12:5-50:19
 MERGED from [com.google.android.material:material:1.3.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/10a1fd9a43e78ddadba51799567f760e/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/10a1fd9a43e78ddadba51799567f760e/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/ab75dfbbd723f28d9ab1c4d69d43602e/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/ab75dfbbd723f28d9ab1c4d69d43602e/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/5ca03a01bf71564eda2e31d80173344e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/5ca03a01bf71564eda2e31d80173344e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/fa348a26b5bd1ad89c063ae3d4bc48cb/jetified-play-services-location-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/fa348a26b5bd1ad89c063ae3d4bc48cb/jetified-play-services-location-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/f07b1191ebfe0f0831af8b7885bf3ab9/jetified-play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/f07b1191ebfe0f0831af8b7885bf3ab9/jetified-play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/6091fa792a7e36ce0b6bd78c4b4022a1/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/6091fa792a7e36ce0b6bd78c4b4022a1/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/2cd6ec511745259219e32f6de41421c3/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/2cd6ec511745259219e32f6de41421c3/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/4ed260d198e71994020c2277de0515f3/jetified-play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/4ed260d198e71994020c2277de0515f3/jetified-play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.3.2] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/f4726924add2327517ec5f23b6aa3aba/core-1.3.2/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.3.2] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/f4726924add2327517ec5f23b6aa3aba/core-1.3.2/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/c0c934729d9ce0ebf2355fa409e06cb9/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
@@ -74,51 +96,63 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/haya
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.2] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/f4726924add2327517ec5f23b6aa3aba/core-1.3.2/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:15:9-41
 	android:roundIcon
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:16:9-54
 	android:icon
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:11:9-49
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:18:9-49
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:28:9-30:55
+	android:value
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:30:13-52
+	android:name
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:29:13-58
+activity#com.example.testsamples.MapsActivity
+ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:32:9-34:68
+	android:label
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:34:13-56
+	android:name
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:33:13-41
 activity#com.example.testsamples.PreferenceTestActivity
-ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:12:9-69
+ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:35:9-60
 	android:name
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:12:19-57
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:35:19-57
 activity#com.example.testsamples.TestFieldActivity
-ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:13:9-15:50
+ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:36:9-38:50
 	android:resizeableActivity
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:15:13-47
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:38:13-47
 	android:name
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:14:13-46
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:37:13-46
 activity#com.example.testsamples.MainActivity
-ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:16:9-50
+ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:39:9-50
 	android:name
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:16:19-47
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:39:19-47
 activity#com.example.testsamples.CountUpActivity
-ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:17:9-53
+ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:40:9-53
 	android:name
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:17:19-50
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:40:19-50
 activity#com.example.testsamples.StartDialogActivity
-ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:18:9-26:20
+ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:41:9-49:20
 	android:theme
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:20:13-70
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:43:13-70
 	android:name
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:19:13-48
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:42:13-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:21:13-25:29
+ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:44:13-48:29
 action#android.intent.action.MAIN
-ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:22:17-69
+ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:45:17-69
 	android:name
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:22:25-66
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:45:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:24:17-77
+ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:47:17-77
 	android:name
-		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:24:27-74
+		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml:47:27-74
 uses-sdk
 INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml
@@ -137,6 +171,10 @@ MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/hayataku/.gradle/caches/
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/4102c377b7a8a929cfb8c6bcf858d486/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment:2.3.3] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/f9c81aebc3529e74297ccbda675ffa1b/navigation-fragment-2.3.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment:2.3.3] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/f9c81aebc3529e74297ccbda675ffa1b/navigation-fragment-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/5ca03a01bf71564eda2e31d80173344e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/5ca03a01bf71564eda2e31d80173344e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/fa348a26b5bd1ad89c063ae3d4bc48cb/jetified-play-services-location-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/fa348a26b5bd1ad89c063ae3d4bc48cb/jetified-play-services-location-18.0.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/7768ef850c6e7f23afc64bde82056cbc/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/7768ef850c6e7f23afc64bde82056cbc/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/ce5d1630d5b3df7ace9dd35aaabe9c5a/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -149,6 +187,14 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hayataku/.grad
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/2a8076bdfc58cd2ace7c4c78c5754ac7/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/d26c4581f2aa1b1cbe7b20229144eab6/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/d26c4581f2aa1b1cbe7b20229144eab6/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/f07b1191ebfe0f0831af8b7885bf3ab9/jetified-play-services-base-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/f07b1191ebfe0f0831af8b7885bf3ab9/jetified-play-services-base-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/6091fa792a7e36ce0b6bd78c4b4022a1/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/6091fa792a7e36ce0b6bd78c4b4022a1/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/2cd6ec511745259219e32f6de41421c3/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/2cd6ec511745259219e32f6de41421c3/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/4ed260d198e71994020c2277de0515f3/jetified-play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/4ed260d198e71994020c2277de0515f3/jetified-play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.2.4] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/8424eccb2914450df71e7fb1902b3ec8/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.2.4] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/8424eccb2914450df71e7fb1902b3ec8/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/efbbf25f7ee25cf0acf8d96cb8a0a78e/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
@@ -213,3 +259,37 @@ INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManife
 		INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml
 		ADDED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml
 		INJECTED from /Volumes/HDPC-UT/programing/TestSamples/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/5ca03a01bf71564eda2e31d80173344e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/5ca03a01bf71564eda2e31d80173344e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/5ca03a01bf71564eda2e31d80173344e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/5ca03a01bf71564eda2e31d80173344e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:22-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/5ca03a01bf71564eda2e31d80173344e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/5ca03a01bf71564eda2e31d80173344e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/5ca03a01bf71564eda2e31d80173344e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/5ca03a01bf71564eda2e31d80173344e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/5ca03a01bf71564eda2e31d80173344e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/5ca03a01bf71564eda2e31d80173344e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/f07b1191ebfe0f0831af8b7885bf3ab9/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/f07b1191ebfe0f0831af8b7885bf3ab9/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/f07b1191ebfe0f0831af8b7885bf3ab9/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/f07b1191ebfe0f0831af8b7885bf3ab9/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.5.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/4ed260d198e71994020c2277de0515f3/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/4ed260d198e71994020c2277de0515f3/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] /Users/hayataku/.gradle/caches/transforms-2/files-2.1/4ed260d198e71994020c2277de0515f3/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
