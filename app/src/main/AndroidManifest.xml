@@ -37,7 +37,7 @@
             android:name=".TestFieldActivity"
             android:resizeableActivity="false" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".CountUpActivity" />
+        <activity android:name=".darts.CountUpActivity" />
         <activity
             android:name=".StartDialogActivity"
             android:theme="@style/Theme.AppCompat.Light.Dialog.Alert">

@@ -1,4 +1,4 @@
-package com.example.testsamples;
+package com.example.testsamples.darts;
 
 import android.content.ContentValues;
 import android.content.Context;

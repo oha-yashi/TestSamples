@@ -1,4 +1,4 @@
-package com.example.testsamples
+package com.example.testsamples.darts
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -9,6 +9,7 @@ import android.view.View
 import android.view.View.OnTouchListener
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
+import com.example.testsamples.R
 
 class CountUpActivity : AppCompatActivity() {
     private lateinit var scoreView: TextView

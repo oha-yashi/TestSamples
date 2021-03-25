@@ -5,6 +5,7 @@ import android.net.Uri
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.example.testsamples.darts.CountUpActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,7 +13,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         findViewById<View>(R.id.tv_countUp).setOnClickListener {
-            startActivity(Intent(this,CountUpActivity::class.java))
+            startActivity(Intent(this,
+                CountUpActivity::class.java))
         }
 
         findViewById<View>(R.id.tv_testField).setOnClickListener {
